@@ -6,7 +6,7 @@ resources:
         - task_key: Notebook_Job
           notebook_task:
             notebook_path: ../../src/notebooks/Notebook_Job.ipynb
-            source: GIT
+            source: GITHUB
           environment_key: Notebook_Job_environment
       queue:
         enabled: true
