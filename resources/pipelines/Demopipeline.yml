@@ -4,7 +4,7 @@ resources:
       name: demopipeline
       libraries:
         - glob:
-            include: ../../src/pipelines/DemoPipeline/transformations/**
+            include: ../../src/pipelines/DemoPipeline/transformations/Demopipeline.py
       schema: default
       continuous: false
       development: false
@@ -12,4 +12,4 @@ resources:
       channel: CURRENT
       catalog: ${va.catalog_name}
       serverless: true
-      root_path:  ../../src/pipelines/DemoPipeline/transformations/**
+      root_path:  ../../src/pipelines/DemoPipeline/transformations/Demopipeline.py
