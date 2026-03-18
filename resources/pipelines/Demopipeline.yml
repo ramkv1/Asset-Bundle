@@ -1,0 +1,17 @@
+resources:
+  pipelines:
+    pipeline_new_pipeline_2026_03_18_11_28:
+      name: New Pipeline 2026-03-18 11:28
+      libraries:
+        - glob:
+            include: /Workspace/Users/vadlakondaramakrishna961@gmail.com/New Pipeline
+              2026-03-18 11:28/transformations/**
+      schema: default
+      continuous: false
+      development: false
+      photon: true
+      channel: CURRENT
+      catalog: workspace
+      serverless: true
+      root_path: /Workspace/Users/vadlakondaramakrishna961@gmail.com/New Pipeline
+        2026-03-18 11:28
