@@ -1,17 +1,15 @@
 resources:
   pipelines:
-    pipeline_new_pipeline_2026_03_18_11_28:
-      name: New Pipeline 2026-03-18 11:28
+    pipelinedemopipeline:
+      name: demopipeline
       libraries:
         - glob:
-            include: /Workspace/Users/vadlakondaramakrishna961@gmail.com/New Pipeline
-              2026-03-18 11:28/transformations/**
+            include: ../../src/pipelines/DemoPipeline/transformations/**.py
       schema: default
       continuous: false
       development: false
       photon: true
       channel: CURRENT
-      catalog: workspace
+      catalog: ${va.catalog_name}
       serverless: true
-      root_path: /Workspace/Users/vadlakondaramakrishna961@gmail.com/New Pipeline
-        2026-03-18 11:28
+      root_path:  ../../src/pipelines/DemoPipeline/transformations/**.py
